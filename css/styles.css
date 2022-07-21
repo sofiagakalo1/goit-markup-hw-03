@@ -1,0 +1,208 @@
+:root {
+  --brand-black: #212121;
+  --brand-blue: #2196f3;
+  --brand-white: #ffffff;
+  --brand-gray: #757575;
+  --brand-dark-blue: #2f303a;
+  --logo-black:#000000;
+  --main-btn-hover:#188ce8;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--brand-black);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/* ----------------------HEADER------------------- */
+.header {
+  background: var(--brand-white);
+}
+.logo {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+}
+.logo-blue {
+  color: var(--brand-blue);
+}
+.logo-black {
+  color:var(--logo-black) ;
+}
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--brand-black);
+}
+.header-link:hover {
+  color: var(--brand-blue);
+}
+.header-contacts-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--brand-gray);
+}
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+  color: var(--brand-blue);
+}
+.current {
+  color: var(--brand-blue);
+}
+/* ----------------------MAIN-------------------- */
+.main {
+  background: var(--brand-dark-blue);
+}
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--brand-white);
+}
+.main-btn {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--brand-white);
+  background: var(--brand-blue);
+  cursor: pointer;
+}
+.main-btn:hover,
+.main-btn:focus {
+  background: var(--main-btn-hover);
+}
+/* ------------------------BENEFITS--------------------- */
+.benefits {
+  background: var(--brand-white);
+}
+.benefits-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--brand-black);
+}
+.benefits-list-text {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--brand-gray);
+}
+/* ------------------------TASKS--------------------- */
+.tasks-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--brand-black);
+}
+/* ------------------------TEAM--------------------- */
+.team {
+  background: #f5f4fa;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--brand-black);
+}
+.team-item-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--brand-black);
+}
+.team-item-text {
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--brand-gray);
+}
+/* ------------------------PORTFOLIO--------------------- */
+.sections-btn {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--brand-black);
+  background: #f5f4fa;
+  cursor: pointer;
+}
+.sections-btn:hover,
+.sections-btn:focus {
+  color: var(--brand-white);
+  background: var(--brand-blue);
+}
+.portfolio-examples-text {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+  color: var(--brand-black);
+}
+.portfolio-examples-name {
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.03em;
+  color: var(--brand-gray);
+}
+/* ------------------------FOOTER--------------------- */
+.footer {
+  background: var(--brand-dark-blue);
+}
+.logo-white {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: var(--brand-white);
+}
+.footer-address-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--brand-white);
+}
+.footer-contacts-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-contacts-link:hover,
+.footer-contacts-link:focus,
+.footer-address-link:hover,
+.footer-address-link:focus {
+  color: var(--brand-blue);
+}
